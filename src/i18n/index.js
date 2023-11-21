@@ -5,14 +5,16 @@ Vue.use(VueI18n);
 
 import en from './en'
 import fr from './fr'
+import zh from "./zh";
 
 const messages = {
     en,
-    fr
+    fr,
+    zh,
 };
 
 // Create VueI18n instance with options
 export default new VueI18n({
-    locale: 'en', // set locale
+    locale: 'zh', // set locale
     messages, // set locale messages
 });

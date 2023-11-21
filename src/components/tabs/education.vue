@@ -1,5 +1,5 @@
 <template>
-    <b-tab title="Education" id="educations">
+    <b-tab :title="$t('tabs.education')" id="educations">
         <b-form @submit.prevent="onSubmit">
             <b-form-group>
                 <label for="education-degree">
