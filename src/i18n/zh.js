@@ -29,10 +29,10 @@ export default {   // 中文
         current: 'Current',
     },
     placeholders: {
-        fullName: 'Enter your Full Name',
-        job: 'Enter your Desired Job',
-        phone: 'Enter your Phone Number',
-        email: 'Enter your Email',
+        fullName: '姓名',
+        job: '职位',
+        phone: '手机',
+        email: '邮箱',
         links: 'Add your links',
         socialNetworks: 'Please Select a Social media',
         pseudo: 'Enter your Pseudo',
@@ -51,9 +51,9 @@ export default {   // 中文
         interests: 'Add What your Interest for',
     },
     buttons: {
-        previous: 'Previous',
-        next: 'Next',
-        add: 'Add',
+        previous: '上一个',
+        next: '下一个',
+        add: '添加',
     },
     toggles: {
         delete: 'Delete Me',
@@ -66,12 +66,12 @@ export default {   // 中文
 
     },
     titles: {
-        resume: 'Resume',
-        experiences: 'Experiences',
-        projects: 'Projects',
-        skills: 'Skills',
-        languages: 'Languages',
-        educations: 'Educations',
-        interests: 'Interests',
+        resume: '简历',
+        experiences: '经验',
+        projects: '项目',
+        skills: '技能',
+        languages: '语言',
+        educations: '教育',
+        interests: '兴趣',
     }
 }

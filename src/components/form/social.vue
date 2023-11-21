@@ -66,7 +66,7 @@
                 return Validator.value(value).required();
             },
             pseudo: function (value) {
-                    return  Validator.value(value).required().regex('^[a-zA-Z0-9-_]+$', 'Must be a valid pseudo.')
+                    return  Validator.value(value).required()
             }
         },
         methods: {

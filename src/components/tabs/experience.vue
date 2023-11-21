@@ -267,10 +267,10 @@
         },
         validators: {
             role: function (value) {
-                return Validator.value(value).required().regex('^[A-Za-z ]*$', 'Must only contain alphabetic characters.');
+                return Validator.value(value).required()
             },
             company: function (value) {
-                return Validator.value(value).required().regex('^[A-Za-z ]*$', 'Must only contain alphabetic characters.');
+                return Validator.value(value).required()
             },
             fromTo: function (value) {
                 return Validator.value(value).required();

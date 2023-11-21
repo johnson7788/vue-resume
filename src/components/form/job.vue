@@ -29,7 +29,7 @@
         },
         validators: {
             job: function (value) {
-                return Validator.value(value).regex('^[A-Za-z ]*$', 'Must only contain alphabetic characters.');
+                return Validator.value(value).required()
             }
         },
         methods:{

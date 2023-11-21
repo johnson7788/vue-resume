@@ -230,7 +230,7 @@
         },
         validators: {
             degree: function (value) {
-                return Validator.value(value).required().regex('^[A-Za-z0-9 ]*$', 'Must only contain alphabetic characters.');
+                return Validator.value(value).required()
             },
             school: function (value) {
                 return Validator.value(value).required();
