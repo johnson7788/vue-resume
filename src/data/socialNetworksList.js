@@ -1,5 +1,6 @@
 export default [
     { value: null, text: 'Please select an social media'},
+    { value: 'zhihu', text: 'Zhihu', url: 'https://www.zhihu.com/'},
     { value: 'linkedin-in', text: 'LinkedIn', url: 'https://www.linkedin.com/in/'},
     { value: 'facebook', text: 'Facebook', url: 'https://www.facebook.com/'},
     { value: 'instagram', text: 'Instagram', url: 'https://www.instagram.com/'},

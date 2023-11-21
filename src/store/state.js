@@ -1,4 +1,4 @@
-import form               from '../data/form';
+import form               from '../data/myform';
 import socialNetworksList from '../data/socialNetworksList';
 import levels             from '../data/levels';
 import LangLevels         from '../data/LangLevels';
